@@ -1,0 +1,158 @@
+
+html {
+    font-family: monospace, sans-serif, Serif;
+    color: #cccccc;
+    margin: 0;
+    height: 100%;
+    background-color: #444165;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.app-container {
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    padding: 1em;
+    background-color: #2b263d;
+}
+
+hr {
+    width: 98%;
+    border: #cccccc solid 1px;
+}
+
+.robot-quote {
+    font-family: 'VT323', monospace;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.response-container {
+    height: auto;
+
+    margin: 1em;
+    padding: 0 1em;
+
+    font-size: 1em;
+    text-align: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.response {
+    margin: 1em 0;
+}
+
+
+
+/***** Navigation *****/
+nav {
+    width: 100%;
+}
+nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+
+    list-style-type: none;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+nav a:hover, nav a:visited, nav a:active, nav a:link {
+    color: #cccccc;
+}
+
+/***** Form stuff *****/
+form {
+    margin-bottom: 1em;
+}
+textarea {
+    font-family: monospace, serif;
+    font-size: 1em;
+
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 1em;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-style: solid;
+
+    resize: none;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+input[type=submit] {
+    width: 100%;
+    height: 3em;
+
+    margin-top: 1em;
+    border-radius: 5px;
+
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/***** Utility Classes *****/
+.flex-col {
+    display: flex;
+    display: -webkit-flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .app-container {
+        max-width: 400px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
